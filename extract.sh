@@ -1,5 +1,6 @@
 #!/bin/bash
-# function Extract for common file formats
+set -e
+# Description: Universal extractor.
 
 function extract {
  if [ -z "$1" ]; then
